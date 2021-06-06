@@ -4,7 +4,7 @@ import { Text } from 'react-native-elements';
 import {Context } from '../context/AuthContext'; 
 import AuthComponent from '../components/AuthComponent';
 const SigninScreen = ({navigation}) => {
-    const {state , signin,clearErrorMessage} = useContext(Context);
+    const {state , signin} = useContext(Context);
 
     return (
         <View style = {styles.container}>

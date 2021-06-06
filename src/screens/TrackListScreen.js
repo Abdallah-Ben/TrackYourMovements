@@ -1,5 +1,5 @@
 import React,{useContext} from 'react'
-import { StyleSheet, Text, TouchableOpacity, FlatList } from 'react-native'
+import { StyleSheet, TouchableOpacity, FlatList } from 'react-native'
 import {ListItem} from 'react-native-elements';
 import {Context as TrackContext} from '../context/TrackContext';
 const TrackListScreen = ({navigation}) => {

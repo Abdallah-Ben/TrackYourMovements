@@ -1,5 +1,5 @@
 import React,{useContext} from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import {Context as TrackContext} from '../context/TrackContext'
 import MapView, {Polyline} from 'react-native-maps';
 
